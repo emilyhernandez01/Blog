@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+    <div class="menu">
+        <a href="#" class="logo">BLOG PERSONAL</a>
+        <input type="checkbox" id="menu">
+        <label for="menu">
+          <img class="menu-icono" src="img/menu.png">
+        </label>
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre.html">Sobre Mi</a></li>
+            <li><a href="port.html">Portafolio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+    </div>
+  <section class="section two-column-section form">
+    <div class="wrap-two-column">
+
+      <div class="">
+        <div class="wrap-text-column">
+          <h3>Contacto</h3>
+
+          <form action="procesar_formulario.php" method="post" class="form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required="">
+            <br>
+            <label for="asunto">Asunto:</label>
+            <input type="text" name="asunto" id="asunto" required="">
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <br>
+            <textarea name="mensaje" id="mensaje" rows="4" cols="40" required=""></textarea>
+            <br>
+            <input type="submit" value="Enviar" class="cta-a">
+          </form>
+        </div>
+      </div>
+  </section>
+
+<footer>
+    <div class="container">
+        <p>Emily Hernandez © 2024 | Mi Blog Personal ♥</p>
+        <div class="redes-sociales">
+            <a href="#"><img src="img/what.png" ></a>
+            <a href="#"><img src="img/insta.png" ></a>
+            <a href="#"><img src="img/correo.png" ></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
